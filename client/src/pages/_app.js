@@ -1,5 +1,6 @@
 // This file (component) is used to initialize the pages
 import Head from "next/head";
+import Navbar from "@/components/Navbar";
 import { Montserrat } from "next/font/google";
 import "@/styles/globals.css";
 
@@ -18,6 +19,7 @@ export default function App({ Component, pageProps }) {
       <main
         className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}
       >
+        <Navbar />
         {/* active page */}
         <Component {...pageProps} />
       </main>
