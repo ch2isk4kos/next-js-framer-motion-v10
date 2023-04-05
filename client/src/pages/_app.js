@@ -1,6 +1,6 @@
 // This file (component) is used to initialize the pages
 import Head from "next/head";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/nav/index.js";
 import { Montserrat } from "next/font/google";
 import "@/styles/globals.css";
 
