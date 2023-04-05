@@ -8,3 +8,6 @@
 <br>
 
 ## Guides
+
+Next.js [Optimizing Fonts](https://nextjs.org/docs/basic-features/font-optimization)<br>
+<br>
