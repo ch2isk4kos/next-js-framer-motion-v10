@@ -2,6 +2,15 @@ import React from "react";
 import Logo from "@/components/nav/Logo.js";
 import CustomLink from "./CustomLink";
 import Link from "next/link";
+import {
+  TwitterIcon,
+  GitHubIcon,
+  LinkedInIcon,
+  SunIcon,
+  MoonIcon,
+  CircularText,
+  LinkArrow,
+} from "./Icons";
 
 const Navbar = () => {
   const headerStyles =
@@ -22,19 +31,25 @@ const Navbar = () => {
       </nav>
       <nav className={rightNavStyles}>
         <Link href="/" target={"_blank"}>
-          T
+          <TwitterIcon />
         </Link>
         <Link href="/" target={"_blank"}>
-          T
+          <GitHubIcon />
         </Link>
         <Link href="/" target={"_blank"}>
-          T
+          <LinkedInIcon />
         </Link>
         <Link href="/" target={"_blank"}>
-          T
+          <SunIcon />
         </Link>
         <Link href="/" target={"_blank"}>
-          T
+          <MoonIcon />
+        </Link>
+        <Link href="/" target={"_blank"}>
+          {/* <MoonIcon /> */}
+        </Link>
+        <Link href="/" target={"_blank"}>
+          <LinkArrow />
         </Link>
       </nav>
     </header>
