@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
+
   const linkStyles = `
     ${className} relative group
   `;
