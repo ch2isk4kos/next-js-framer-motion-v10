@@ -7,6 +7,14 @@
 [Tailwind](https://tailwindcss.com/)<br>
 <br>
 
+## Tools
+
+[Iconify](https://iconify.design/)<br>
+[Lucasz Adam Illustrations](https://lukaszadam.com/illustrations)<br>
+[Midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)<br>
+[React SVGR](https://react-svgr.com/)<br>
+<br>
+
 ## Guides
 
 Next.js [Optimizing Fonts](https://nextjs.org/docs/basic-features/font-optimization)<br>
