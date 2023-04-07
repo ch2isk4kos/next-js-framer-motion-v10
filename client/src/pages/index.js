@@ -8,11 +8,11 @@ export default function Home() {
   const mainStyles = `flex items-center text-dark w-full min-h-screen`;
   const layoutStyles = `pt-0`;
   const headerStyles = `flex items-center justify-between w-full`;
-  const imgWrapperStyles = `w-1/2`;
+  const imgWrapperStyles = `w-1/2 flex flex-col items-center self-center`;
   const imgStyles = `w-full h-auto`;
   const headingWrapperStyles = `w-1/2`;
-  const nameStyles = `inline-block w-full text-dark font-bold capitalize text-8xl`;
-  const titleStyles = `inline-block w-full text-dark font-bold capitalize text-6xl`;
+  const nameStyles = `inline-block w-full text-dark font-medium capitalize text-7xl`;
+  const titleStyles = `inline-block w-full text-dark font-extralight capitalize text-left text-5xl`;
 
   return (
     <>
@@ -31,11 +31,12 @@ export default function Home() {
               />
             </div>
             <div className={headingWrapperStyles}>
-              <AnimatedText text={"Chris Kakos"} className={nameStyles} />
+              <AnimatedText className={nameStyles} text={"Chris Kakos"} />
               <AnimatedText
-                text={"Full Stack Engineer"}
                 className={titleStyles}
+                text={"Full Stack Engineer"}
               />
+              {/* <h1>Full Stack Engineer</h1> */}
               <p>
                 blah blah blah blah blah blah blah blah blah blah blah blah blah
                 blah blah blah blah blah blah blah blah blah blah blah blah blah
