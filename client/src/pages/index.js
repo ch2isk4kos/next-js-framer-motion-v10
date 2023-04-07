@@ -1,8 +1,8 @@
-import Layout from "../components/utils/Layout";
 import Image from "next/image";
-import ProfileImage from "../../public/images/mobile-dev-1-vector.png";
-// import ProfileImage from "../../public/images/satelite-globe-1-vector.png";
 import Head from "next/head";
+import Layout from "../components/utils/Layout";
+import AnimatedText from "@/components/utils/AnimatedText";
+import ProfileImage from "../../public/images/mobile-dev-1-vector.png";
 
 export default function Home() {
   const mainStyles = `flex items-center text-dark w-full min-h-screen`;
@@ -29,7 +29,8 @@ export default function Home() {
               />
             </div>
             <div className={headingWrapperStyles}>
-              <h1>Chris Kakos</h1>
+              <AnimatedText text={"Chris Kakos"} />
+              {/* <h1>Chris Kakos</h1> */}
               <h2>Full Stack Engineer</h2>
               <p>
                 blah blah blah blah blah blah blah blah blah blah blah blah blah
