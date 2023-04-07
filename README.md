@@ -27,7 +27,3 @@ Tailwind [Components Cheatsheet](https://tailwindcomponents.com/cheatsheet/)<br>
 
 Next.js [Optimizing Fonts](https://nextjs.org/docs/basic-features/font-optimization)<br>
 <br>
-
-<!-- Left Off: 01:12:14 -->
-<!-- https://www.youtube.com/watch?v=Yw7yWHigGKI -->
-<!-- https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code -->
