@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Head from "next/head";
+import Link from "next/link";
 import Layout from "../components/utils/Layout";
 import AnimatedText from "@/components/utils/AnimatedText";
 import CustomLink from "@/components/utils/CustomLink";
+import CustomButton from "@/components/utils/CustomButton";
 import ProfileImage from "../../public/images/mobile-dev-1-vector.png";
 
 export default function Home() {
@@ -14,10 +16,15 @@ export default function Home() {
   const imgWrapper = `w-1/2 flex flex-col items-center self-center`;
   const img = `w-full h-auto`;
   const headingWrapper = `w-1/2`;
-  const headingName = `inline-block w-full text-dark font-medium capitalize text-left text-7xl`;
-  const headingTitle = `inline-block w-full text-dark font-extralight capitalize text-left text-5xl`;
+  const heading = `inline-block w-full text-dark capitalize text-left`;
   const headingSubtext = `my-4 text-base font-medium`;
-  const buttonWrapper = ``;
+  const buttonWrapper = `flex items-center self-start mt-2`;
+  const button = `
+    flex items-center text-light p-2.5 px-6 mx-2
+    text-lg font-semibold bg-dark
+    border-2 border-solid border-transparent rounded-lg 
+    hover:border-dark hover:bg-light hover:text-dark
+  `;
 
   return (
     <>
@@ -35,9 +42,12 @@ export default function Home() {
             </div>
             {/* Header Heading */}
             <div className={headingWrapper}>
-              <AnimatedText className={headingName} text={"Chris Kakos"} />
               <AnimatedText
-                className={headingTitle}
+                className={`${heading} font-medium text-7xl`}
+                text={"Chris Kakos"}
+              />
+              <AnimatedText
+                className={`${heading} font-extralight text-5xl`}
                 text={"Full Stack Engineer"}
               />
               <p className={headingSubtext}>
@@ -45,17 +55,23 @@ export default function Home() {
                 blah blah blah blah blah blah blah blah blah blah blah blah blah
               </p>
               <div className={`${buttonWrapper}`}>
-                <CustomLink
+                <Link
+                  // className={`${button} bg-blue-800`}
+                  className={button}
                   href={`/chris-kakos-resume-2023.pdf`}
-                  title={"Resume"}
-                  target={true}
-                />
-                <CustomLink
+                  target={"_blank"}
+                  download={true}
+                >
+                  Download My Resume
+                </Link>
+                <Link
+                  // className={`${button} bg-green-800`}
+                  className={button}
                   href={`mailto:ch2isk4kos@gmail.com`}
-                  title={"Contact"}
-                  target={true}
-                />
-                <CustomLink href={`https://react.dev`} title={"React"} />
+                  target={"_blank"}
+                >
+                  Send Me An Email
+                </Link>
               </div>
             </div>
           </div>
