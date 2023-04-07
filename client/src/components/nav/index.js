@@ -16,8 +16,8 @@ import { motion } from "framer-motion";
 const Navbar = () => {
   const headerStyles =
     "w-full px-32 py-8 font-medium flex items-center justify-between";
-  const pageNavStyles = "";
-  const iconNavStyles = "flex items-center justify-center flex-wrap";
+  const customLinkStyles = "";
+  const iconStyles = "flex items-center justify-center flex-wrap";
   const aStyles = "w-6 mx-2";
   const hoverEffect = { y: -4 };
   const tapEffect = { scale: 0.9 };
@@ -27,13 +27,13 @@ const Navbar = () => {
       <div>
         <Logo />
       </div>
-      <nav className={pageNavStyles}>
+      <nav className={customLinkStyles}>
         <CustomLink href="/" title="Home" className="mr-4" />
-        <CustomLink href="/about" title="About" className="mx-4" />
         <CustomLink href="/projects" title="Projects" className="mx-4" />
-        <CustomLink href="/articles" title="Articles" className="ml-4" />
+        <CustomLink href="/articles" title="Articles" className="mx-4" />
+        <CustomLink href="/about" title="About" className="ml-4" />
       </nav>
-      <nav className={iconNavStyles}>
+      <nav className={iconStyles}>
         {/* Medium */}
         <motion.a
           href="https://chriskakos.medium.com/"
