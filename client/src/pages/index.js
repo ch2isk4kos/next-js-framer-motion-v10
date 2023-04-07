@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
+import { LinkArrow } from "../components/nav/Icons";
 import Layout from "../components/utils/Layout";
 import AnimatedText from "@/components/utils/AnimatedText";
 import ProfileImage from "../../public/images/mobile-dev-1-vector.png";
@@ -59,7 +60,8 @@ export default function Home() {
                   target={"_blank"}
                   download={true}
                 >
-                  Download My Resume
+                  Resume
+                  <LinkArrow className={"w-6 ml-1"} />
                 </Link>
                 <Link
                   className={button}
