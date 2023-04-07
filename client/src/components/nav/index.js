@@ -1,15 +1,12 @@
 import React from "react";
 import Logo from "@/components/nav/Logo.js";
 import CustomLink from "../utils/CustomLink";
-import Link from "next/link";
 import {
   TwitterIcon,
   GitHubIcon,
   LinkedInIcon,
   SunIcon,
   MoonIcon,
-  CircularText,
-  LinkArrow,
 } from "./Icons";
 import { motion } from "framer-motion";
 
@@ -93,16 +90,6 @@ const Navbar = () => {
           whileTap={tapEffect}
         >
           <SunIcon />
-        </motion.a>
-        {/* Line Arrow */}
-        <motion.a
-          href="/"
-          target={"_blank"}
-          className={`w-6 ml-2`}
-          whileHover={hoverEffect}
-          whileTap={tapEffect}
-        >
-          <LinkArrow />
         </motion.a>
       </nav>
     </header>
