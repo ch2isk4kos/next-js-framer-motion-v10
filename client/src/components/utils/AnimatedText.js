@@ -1,4 +1,32 @@
 import React from "react";
+import { motion } from "framer-motion";
+
+const h1Variants = {
+  initial: {
+    opacity: 1,
+  },
+  animate: {
+    opacity: 1,
+    transition: {
+      delay: 0.5,
+      staggerChildren: 0.08,
+    },
+  },
+};
+
+const spanVariants = {
+  initial: {
+    opacity: 0,
+    y: 50,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1,
+    },
+  },
+};
 
 const AnimatedText = ({ className = "", text }) => {
   const textWrapperStyles = `
@@ -9,13 +37,22 @@ const AnimatedText = ({ className = "", text }) => {
 
   return (
     <div className={textWrapperStyles}>
-      <h1 className={textStyles}>
+      <motion.h1
+        className={textStyles}
+        variants={h1Variants}
+        initial="initial"
+        animate="animate"
+      >
         {text.split(" ").map((char, index) => (
-          <span className={spanStyles} key={`${char}-${index}`}>
+          <motion.span
+            className={spanStyles}
+            key={`${char}-${index}`}
+            variants={spanVariants}
+          >
             {char}&nbsp;
-          </span>
+          </motion.span>
         ))}
-      </h1>
+      </motion.h1>
     </div>
   );
 };
