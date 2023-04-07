@@ -3,8 +3,6 @@ import Head from "next/head";
 import Link from "next/link";
 import Layout from "../components/utils/Layout";
 import AnimatedText from "@/components/utils/AnimatedText";
-import CustomLink from "@/components/utils/CustomLink";
-import CustomButton from "@/components/utils/CustomButton";
 import ProfileImage from "../../public/images/mobile-dev-1-vector.png";
 
 export default function Home() {
@@ -56,7 +54,6 @@ export default function Home() {
               </p>
               <div className={`${buttonWrapper}`}>
                 <Link
-                  // className={`${button} bg-blue-800`}
                   className={button}
                   href={`/chris-kakos-resume-2023.pdf`}
                   target={"_blank"}
@@ -65,7 +62,6 @@ export default function Home() {
                   Download My Resume
                 </Link>
                 <Link
-                  // className={`${button} bg-green-800`}
                   className={button}
                   href={`mailto:ch2isk4kos@gmail.com`}
                   target={"_blank"}
