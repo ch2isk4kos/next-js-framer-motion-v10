@@ -11,6 +11,8 @@ export default function Home() {
   const imgWrapperStyles = `w-1/2`;
   const imgStyles = `w-full h-auto`;
   const headingWrapperStyles = `w-1/2`;
+  const nameStyles = `inline-block w-full text-dark font-bold capitalize text-8xl`;
+  const titleStyles = `inline-block w-full text-dark font-bold capitalize text-6xl`;
 
   return (
     <>
@@ -29,9 +31,11 @@ export default function Home() {
               />
             </div>
             <div className={headingWrapperStyles}>
-              <AnimatedText text={"Chris Kakos"} />
-              {/* <h1>Chris Kakos</h1> */}
-              <h2>Full Stack Engineer</h2>
+              <AnimatedText text={"Chris Kakos"} className={nameStyles} />
+              <AnimatedText
+                text={"Full Stack Engineer"}
+                className={titleStyles}
+              />
               <p>
                 blah blah blah blah blah blah blah blah blah blah blah blah blah
                 blah blah blah blah blah blah blah blah blah blah blah blah blah
