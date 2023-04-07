@@ -13,6 +13,7 @@
 [Lucasz Adam Illustrations](https://lukaszadam.com/illustrations)<br>
 [Midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)<br>
 [React SVGR](https://react-svgr.com/)<br>
+[Remove Bg](https://www.remove.bg)<br>
 <br>
 
 ## Guides
