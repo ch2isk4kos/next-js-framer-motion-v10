@@ -7,6 +7,12 @@
 [Tailwind](https://tailwindcss.com/)<br>
 <br>
 
+## References
+
+Tailwind [Components Cheatsheet](https://tailwindcomponents.com/cheatsheet/)<br>
+
+<br>
+
 ## Tools
 
 [Iconify](https://iconify.design/)<br>
@@ -15,10 +21,13 @@
 [React SVGR](https://react-svgr.com/)<br>
 [Erase Bg](https://www.erase.bg)<br>
 [Remove Bg](https://www.remove.bg)<br>
-[Tailwind Components Cheatsheet](https://tailwindcomponents.com/cheatsheet/)<br>
 <br>
 
 ## Guides
 
 Next.js [Optimizing Fonts](https://nextjs.org/docs/basic-features/font-optimization)<br>
 <br>
+
+<!-- Left Off: 01:12:14 -->
+<!-- https://www.youtube.com/watch?v=Yw7yWHigGKI -->
+<!-- https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code -->
