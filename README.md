@@ -13,7 +13,9 @@
 [Lucasz Adam Illustrations](https://lukaszadam.com/illustrations)<br>
 [Midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)<br>
 [React SVGR](https://react-svgr.com/)<br>
+[Erase Bg](https://www.erase.bg)<br>
 [Remove Bg](https://www.remove.bg)<br>
+[Tailwind Components Cheatsheet](https://tailwindcomponents.com/cheatsheet/)<br>
 <br>
 
 ## Guides
