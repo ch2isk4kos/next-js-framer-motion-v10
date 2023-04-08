@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Head from "next/head";
 import Link from "next/link";
-import { LinkArrow } from "../components/nav/Icons";
-import Layout from "../components/utils/Layout";
+import { LinkArrow } from "@/components/nav/Icons";
+import Layout from "@/components/utils/Layout";
 import AnimatedText from "@/components/utils/AnimatedText";
 import ProfileImage from "../../public/images/mobile-dev-1-vector.png";
+import Thumbnail from "@/components/utils/Thumbnail";
 
 export default function Home() {
   // Layout
@@ -74,6 +75,7 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+        <Thumbnail />
       </main>
     </>
   );
