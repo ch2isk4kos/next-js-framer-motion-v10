@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "@/components/nav/Logo.js";
-import CustomLink from "../utils/CustomLink";
+import CustomLink from "./CustomLink";
 import {
   TwitterIcon,
   GitHubIcon,
