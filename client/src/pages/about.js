@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Layout from "@/components/utils/Layout";
 import AnimatedText from "@/components/utils/AnimatedText";
-import Header from "@/components/about/Header";
+import Header from "@/components/about/header";
 
 const layout = `pt-16`;
 const text = `flex flex-column w-full items-center justify-center font-medium text-7xl`;
