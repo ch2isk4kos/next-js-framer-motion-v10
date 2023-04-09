@@ -7,7 +7,7 @@ const About = () => {
     <>
       <Head>
         <title>Chris Kakos | About</title>
-        <meta name="description" content="" />
+        <meta name="description" content="full stack software engineer" />
       </Head>
       <main>
         <AnimatedText text="About" />
