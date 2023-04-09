@@ -3,7 +3,7 @@ import Head from "next/head";
 import Layout from "@/components/utils/Layout";
 import AnimatedText from "@/components/utils/AnimatedText";
 
-const About = () => {
+const AboutPage = () => {
   const layout = `pt-16`;
   const text = `flex flex-column w-full  items-center justify-center font-medium text-7xl`;
   const grid = `grid grid-cols-8 gap-16 w-full`;
@@ -57,4 +57,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutPage;
