@@ -1,4 +1,5 @@
 import React from "react";
+import AnimatedNumbers from "./AnimatedNumbers";
 
 const Stats = () => {
   const statsContainer = `flex flex-col col-span-2 items-end justify-between`;
@@ -11,15 +12,21 @@ const Stats = () => {
   return (
     <div className={statsContainer}>
       <div className={courses}>
-        <span className={span}>50+</span>
+        <span className={span}>
+          <AnimatedNumbers value={50} />+
+        </span>
         <h2 className={h2}>courses uncompleted</h2>
       </div>
       <div className={projects}>
-        <span className={span}>40+</span>
+        <span className={span}>
+          <AnimatedNumbers value={40} />+
+        </span>
         <h2 className={h2}>projects unfinished</h2>
       </div>
       <div className={experience}>
-        <span className={span}>5+</span>
+        <span className={span}>
+          <AnimatedNumbers value={5} />+
+        </span>
         <h2 className={h2}>years of confusion</h2>
       </div>
     </div>
