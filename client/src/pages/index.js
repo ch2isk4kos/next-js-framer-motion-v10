@@ -7,7 +7,7 @@ import AnimatedText from "@/components/utils/AnimatedText";
 import ProfileImage from "../../public/images/mobile-dev-1-vector.png";
 import Thumbnail from "@/components/utils/Thumbnail";
 
-export default function Home() {
+export default function HomePage() {
   // Layout
   const main = `flex items-center text-dark w-full min-h-screen`;
   const layout = `pt-0`;
