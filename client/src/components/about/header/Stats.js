@@ -3,27 +3,25 @@ import AnimatedNumbers from "./AnimatedNumbers";
 
 const Stats = () => {
   const statsContainer = `flex flex-col col-span-2 items-end justify-between`;
+  const spanWrapper = `flex flex-col items-end justify-center mb-8`;
   const span = `inline-block text-7xl font-bold`;
-  const h2 = `text-md font-medium uppercase text-dark/75`;
-  const courses = `flex flex-col items-end justify-center mb-8`;
-  const projects = `flex flex-col items-end justify-center mb-8`;
-  const experience = `flex flex-col items-end justify-center mb-8`;
+  const h2 = `text-sm font-medium uppercase text-dark/75`;
 
   return (
     <div className={statsContainer}>
-      <div className={courses}>
+      <div className={spanWrapper}>
         <span className={span}>
           <AnimatedNumbers value={50} />+
         </span>
         <h2 className={h2}>courses uncompleted</h2>
       </div>
-      <div className={projects}>
+      <div className={spanWrapper}>
         <span className={span}>
           <AnimatedNumbers value={40} />+
         </span>
         <h2 className={h2}>projects unfinished</h2>
       </div>
-      <div className={experience}>
+      <div className={spanWrapper}>
         <span className={span}>
           <AnimatedNumbers value={5} />+
         </span>
