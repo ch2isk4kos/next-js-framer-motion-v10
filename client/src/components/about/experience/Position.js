@@ -30,6 +30,19 @@ const Position = ({
         <br />
         <p>{overview}</p>
       </span>
+      <span>
+        <br />
+        <ul>
+          {duties?.map((duty) => (
+            <>
+              <li>{duty.p1}</li>
+              <li>{duty.p2}</li>
+              <li>{duty.p3}</li>
+              <li>{duty.p4}</li>
+            </>
+          ))}
+        </ul>
+      </span>
     </li>
   );
 };
