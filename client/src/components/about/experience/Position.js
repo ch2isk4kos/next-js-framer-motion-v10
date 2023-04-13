@@ -1,5 +1,6 @@
 import React from "react";
 
+const li = `my-8 first:mt-0 last:mb-0`;
 const h3 = `font-bold text-lg mb-32 w-full`;
 
 const Position = ({
@@ -12,7 +13,7 @@ const Position = ({
   overview,
 }) => {
   return (
-    <li>
+    <li className={li}>
       <h3>
         <span className={h3}>{title}</span>&nbsp;
         <a href={companyURL} target={"_blank"}>
