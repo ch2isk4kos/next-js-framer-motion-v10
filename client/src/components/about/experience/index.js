@@ -15,7 +15,7 @@ const positions = [
     time: "March 2022 - May 2023",
     location: "Orlando, FL/Remote",
     overview:
-      "Responsible for developing and improving features for the Fortress M2V Marketplace, including building new tools for data analysis and visualization while providing the accuracy, integrity and accessibility of compliance data.",
+      "Responsible for developing and improving features for the Fortress M2V Marketplace, including building new tools for data analysis and visualization while providing accuracy, integrity and accessibility of compliance data.",
     duties: [
       {
         p1: "• bullet point 1",
