@@ -1,6 +1,6 @@
 import React from "react";
 
-const li = `my-8 first:mt-0 last:mb-0`;
+const li = `flex flex-col items-center justify-between w-[60%] mx-auto my-8 first:mt-0 last:mb-0`;
 const h3 = `font-bold text-lg mb-32 w-full`;
 
 const Position = ({
