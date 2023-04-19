@@ -4,8 +4,7 @@ import Position from "./Position";
 const experience = `my-64`;
 const h2 = `font-bold text-8xl mb-32 w-full`;
 const ulWrapper = `relative w-[75%] mx-auto`;
-const ul = ``;
-const li = ``;
+const ul = `flex flex-col items-start justify-between w-full ml-4`;
 
 const positions = [
   {
