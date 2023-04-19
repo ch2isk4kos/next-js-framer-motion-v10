@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import Position from "./Position";
-import BulletPoint from "./BulletPoint";
 import { positions } from "./positions";
 import { motion, useScroll } from "framer-motion";
 
