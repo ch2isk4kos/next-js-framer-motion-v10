@@ -25,6 +25,23 @@ const positions = [
       },
     ],
   },
+  {
+    title: "Help Desk Support Engineer",
+    company: "Robbins Research International",
+    companyURL: "https://www.tonyrobbins.com/",
+    time: "March 2017 - May 2018",
+    location: "San Diego, CA",
+    overview:
+      "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.",
+    duties: [
+      {
+        p1: "• bullet point 1",
+        p2: "• bullet point 2",
+        p3: "• bullet point 3",
+        p4: "• bullet point 4",
+      },
+    ],
+  },
 ];
 
 const Experience = () => {
