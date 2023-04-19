@@ -11,6 +11,7 @@ const line = `absolute top-0 w-[4px] h-full bg-dark origin-top`;
 const ul = `flex flex-col items-start justify-between w-full ml-4`;
 
 const Experience = () => {
+  const { scrollYProgress } = useScroll();
   return (
     <div className={experience}>
       <h2 className={h2}>Experience</h2>
