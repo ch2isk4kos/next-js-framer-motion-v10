@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import Position from "./Position";
 import { positions } from "./positions";
 import { motion, useScroll } from "framer-motion";
@@ -11,6 +11,7 @@ const line = `absolute top-0 w-[4px] h-full bg-dark origin-top`;
 const ul = `flex flex-col items-start justify-between w-full ml-4`;
 
 const Experience = () => {
+  const ref = useRef();
   const { scrollYProgress } = useScroll();
   return (
     <div className={experience}>
