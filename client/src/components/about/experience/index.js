@@ -17,7 +17,7 @@ const Experience = () => {
     <div className={experience}>
       <h2 className={h2}>Experience</h2>
       <div className={ulWrapper}>
-        <div className={line} />
+        <div ref={ref} className={line} />
         <ul className={ul}>
           {positions?.map((position) => (
             <Position
