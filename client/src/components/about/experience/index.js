@@ -12,7 +12,7 @@ const ul = `flex flex-col items-start justify-between w-full ml-4`;
 
 const Experience = () => {
   const ref = useRef(null);
-  const { scrollYProgress } = useScroll();
+  const { scrollYProgress } = useScroll({ target: ref });
   return (
     <div className={experience}>
       <h2 className={h2}>Experience</h2>
