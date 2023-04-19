@@ -12,12 +12,19 @@ const ul = `flex flex-col items-start justify-between w-full ml-4`;
 
 const Experience = () => {
   const ref = useRef(null);
-  const { scrollYProgress } = useScroll({ target: ref });
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "center start"],
+  });
   return (
     <div className={experience}>
       <h2 className={h2}>Experience</h2>
       <div className={ulWrapper}>
-        <div ref={ref} className={line} />
+        <motion.div
+          ref={ref}
+          className={line}
+          style={{ scaleY: scrollYProgress }}
+        />
         <ul className={ul}>
           {positions?.map((position) => (
             <Position
