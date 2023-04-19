@@ -15,7 +15,7 @@ const positions = [
     location: "Orlando, FL/Remote",
     overview:
       "Responsible for developing and improving features for the Fortress M2V Marketplace, including building new tools for data analysis and visualization while providing accuracy, integrity and accessibility of compliance data.",
-    duties: [
+    responsibilities: [
       {
         p1: "• bullet point 1",
         p2: "• bullet point 2",
@@ -32,7 +32,7 @@ const positions = [
     location: "San Diego, CA",
     overview:
       "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.",
-    duties: [
+    responsibilities: [
       {
         p1: "• bullet point 1",
         p2: "• bullet point 2",
@@ -57,7 +57,7 @@ const Experience = () => {
               location={position.location}
               time={position.time}
               overview={position.overview}
-              duties={position.duties}
+              responsibilities={position.responsibilities}
             />
           ))}
         </ul>
