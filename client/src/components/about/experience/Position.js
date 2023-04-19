@@ -10,7 +10,7 @@ const summary = `font-medium w-full`;
 const Position = ({
   company,
   companyURL,
-  duties,
+  responsibilities,
   location,
   title,
   time,
@@ -34,12 +34,12 @@ const Position = ({
       <span>
         <br />
         <ul>
-          {duties?.map((duty) => (
+          {responsibilities?.map((responsibility) => (
             <>
-              <li>{duty.p1}</li>
-              <li>{duty.p2}</li>
-              <li>{duty.p3}</li>
-              <li>{duty.p4}</li>
+              <li>{responsibility.p1}</li>
+              <li>{responsibility.p2}</li>
+              <li>{responsibility.p3}</li>
+              <li>{responsibility.p4}</li>
             </>
           ))}
         </ul>
