@@ -1,6 +1,7 @@
 import React from "react";
 import Position from "./Position";
 import { positions } from "./positions";
+import { useScroll } from "framer-motion";
 
 const experience = `my-64`;
 const h2 = `font-bold text-8xl mb-32 w-full`;
