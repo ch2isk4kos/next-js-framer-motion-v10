@@ -7,7 +7,7 @@ const experience = `my-64`;
 const h2 = `font-bold text-8xl mb-32 w-full`;
 // const ulWrapper = `relative w-[75%] mx-auto`;
 const ulWrapper = `relative w-[75%]`;
-const line = `absolute top-0 w-[4px] h-full bg-dark origin-top`;
+const line = `absolute left-9 top-0 w-[4px] h-full bg-dark origin-top`;
 const ul = `flex flex-col items-start justify-between w-full ml-4`;
 
 const Experience = () => {
