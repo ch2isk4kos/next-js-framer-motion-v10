@@ -4,6 +4,7 @@ import Layout from "@/components/utils/Layout";
 import AnimatedText from "@/components/utils/AnimatedText";
 
 const layout = `pt-16`;
+const main = `w-full`;
 const text = `
   flex flex-column items-center justify-center
   w-full mb-32 font-medium text-7xl uppercase
@@ -19,7 +20,7 @@ const ProjectsPage = () => {
           content="full stack software engineer projects"
         />
       </Head>
-      <main>
+      <main className={main}>
         <Layout className={layout}>
           <AnimatedText className={text} text="Projects" />
         </Layout>
