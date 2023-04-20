@@ -14,7 +14,10 @@ const ProjectsPage = () => {
     <>
       <Head>
         <title>Chris Kakos | Projects</title>
-        <meta name="description" content="full stack software engineer" />
+        <meta
+          name="description"
+          content="full stack software engineer projects"
+        />
       </Head>
       <main>
         <Layout className={layout}>
