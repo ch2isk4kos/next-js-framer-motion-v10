@@ -5,6 +5,7 @@ import AnimatedText from "@/components/utils/AnimatedText";
 import Header from "@/components/about/header";
 import Skills from "@/components/about/skills";
 import Experience from "@/components/about/experience";
+import Education from "@/components/about/education";
 
 const layout = `pt-16`;
 const text = `
@@ -25,6 +26,7 @@ const AboutPage = () => {
           <Header />
           <Skills />
           <Experience />
+          <Education />
         </Layout>
       </main>
     </>
