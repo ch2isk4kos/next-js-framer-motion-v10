@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import BulletPoint from "./BulletPoint";
+import { motion } from "framer-motion";
 
 const root = `flex flex-col items-center justify-between w-[60%] mx-auto my-8 first:mt-0 last:mb-20`;
 // const root = `flex flex-col items-center justify-between w-full mx-10 my-8 first:mt-0 last:mb-0`;
@@ -21,20 +22,25 @@ const Position = ({
   return (
     <li className={root} ref={ref}>
       <BulletPoint reference={ref} />
-      <h3 className={h3}>
-        <span>{title}</span>&nbsp; @
-        <a className={a} href={companyURL} target={"_blank"}>
-          {company}
-        </a>
-      </h3>
-      <p className={duration}>
-        {time} | {location}
-      </p>
-      <span className={summary}>
-        <br />
-        <p>{overview}</p>
-      </span>
-      {/* <span>
+      <motion.div
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ duration: 0.5, type: "spring" }}
+      >
+        <h3 className={h3}>
+          <span>{title}</span>&nbsp; @
+          <a className={a} href={companyURL} target={"_blank"}>
+            {company}
+          </a>
+        </h3>
+        <p className={duration}>
+          {time} | {location}
+        </p>
+        <span className={summary}>
+          <br />
+          <p>{overview}</p>
+        </span>
+        {/* <span>
         <br />
         <ul>
           {responsibilities?.map((responsibility) => (
@@ -47,6 +53,7 @@ const Position = ({
           ))}
         </ul>
       </span> */}
+      </motion.div>
     </li>
   );
 };

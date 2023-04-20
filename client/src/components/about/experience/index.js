@@ -16,6 +16,7 @@ const Experience = () => {
     target: ref,
     offset: ["start end", "center start"],
   });
+
   return (
     <div className={experience}>
       <h2 className={h2}>Experience</h2>
