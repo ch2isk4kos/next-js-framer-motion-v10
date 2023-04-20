@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Layout from "@/components/utils/Layout";
 import AnimatedText from "@/components/utils/AnimatedText";
+import Featured from "@/components/projects/Featured";
 
 const layout = `pt-16`;
 const main = `flex flex-col items-center justify-center w-full mb-16`;
@@ -24,7 +25,9 @@ const ProjectsPage = () => {
       <main className={main}>
         <Layout className={layout}>
           <AnimatedText className={text} text="Projects" />
-          <div className={grid}></div>
+          <div className={grid}>
+            <Featured />
+          </div>
         </Layout>
       </main>
     </>
