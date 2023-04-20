@@ -35,7 +35,7 @@ const Navbar = () => {
         <motion.a
           href="https://chriskakos.medium.com/"
           target={"_blank"}
-          className={`${aStyles}`}
+          className={aStyles}
           whileHover={hoverEffect}
           whileTap={tapEffect}
         >
