@@ -4,7 +4,7 @@ import Layout from "@/components/utils/Layout";
 import AnimatedText from "@/components/utils/AnimatedText";
 import Featured from "@/components/projects/Featured";
 import Project from "@/components/projects/Project";
-import { projects } from "@/components/projects/data";
+import { featured, projects } from "@/components/projects/data";
 
 const layout = `pt-16`;
 const main = `flex flex-col items-center justify-center w-full mb-16`;
@@ -31,7 +31,7 @@ const ProjectsPage = () => {
           <AnimatedText className={text} text="Projects" />
           <div className={grid}>
             <div className={featureGrid}>
-              <Featured />
+              <Featured data={featured} />
             </div>
             {projects?.map((project) => (
               <div className={projectGrid}>
