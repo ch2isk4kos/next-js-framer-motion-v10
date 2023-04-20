@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import BulletPoint from "./BulletPoint";
+import BulletPoint from "../BulletPoint";
 import { motion } from "framer-motion";
 
 const root = `flex flex-col items-center justify-between w-[60%] mx-auto my-8 first:mt-0 last:mb-20`;
@@ -28,7 +28,9 @@ const Position = ({
         transition={{ duration: 0.5, type: "spring" }}
       >
         <h3 className={h3}>
-          <span>{title}</span>&nbsp; @
+          {/* <span>{title}</span>&nbsp; @ */}
+          <span>{title}</span>
+          <br /> @
           <a className={a} href={companyURL} target={"_blank"}>
             {company}
           </a>
