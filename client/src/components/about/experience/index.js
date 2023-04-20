@@ -3,7 +3,7 @@ import Position from "./Position";
 import { positions } from "./positions";
 import { motion, useScroll } from "framer-motion";
 
-const experience = `my-64`;
+const root = `my-64`;
 const h2 = `font-bold text-8xl mb-32 w-full`;
 // const ulWrapper = `relative w-[75%] mx-auto`;
 const ulWrapper = `relative w-[75%]`;
@@ -18,7 +18,7 @@ const Experience = () => {
   });
 
   return (
-    <div className={experience}>
+    <div className={root}>
       <h2 className={h2}>Experience</h2>
       <div className={ulWrapper}>
         <motion.div
