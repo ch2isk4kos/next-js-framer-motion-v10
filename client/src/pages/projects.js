@@ -9,6 +9,7 @@ const text = `
   flex flex-column items-center justify-center
   w-full mb-32 font-medium text-7xl uppercase
 `;
+const grid = `grid grid-cols-12 gap-24`;
 
 const ProjectsPage = () => {
   return (
@@ -23,6 +24,7 @@ const ProjectsPage = () => {
       <main className={main}>
         <Layout className={layout}>
           <AnimatedText className={text} text="Projects" />
+          <div className={grid}></div>
         </Layout>
       </main>
     </>
