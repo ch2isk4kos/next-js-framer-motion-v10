@@ -15,7 +15,7 @@ const h2 = `font-medium text-center text-blue-600 text-2xl`;
 const category = `w-full my-2 font-bold text-left text-dark text-4xl`;
 const description = `my-2 font-medium text-dark`;
 const links = `flex items-center mt-2`;
-const gitHubIcon = "w-12";
+const gitHubIcon = "w-18 h-10";
 const appLink = `ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold`;
 
 const Featured = ({ data }) => {
