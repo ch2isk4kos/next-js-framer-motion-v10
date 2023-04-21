@@ -4,7 +4,7 @@ import Link from "next/link";
 import { GitHubIcon } from "../nav/Icons";
 
 const root = `
-  flex items-center justify-center w-full rounded-2xl
+  relative flex items-center justify-center w-full rounded-2xl
   border border-solid border-dark bg-light p-6
 `;
 const imageLink = `w-full cursor-pointer overflow-hidden rounded-lg`;
