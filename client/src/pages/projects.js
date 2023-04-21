@@ -34,8 +34,15 @@ const ProjectsPage = () => {
               <Featured data={featured} />
             </div>
             {projects?.map((project) => (
-              <div className={projectGrid}>
-                <Project title={project.title} url={project.url} />
+              <div className={projectGrid} key={project.id}>
+                <Project
+                  category={project.category}
+                  description={project.description}
+                  gitHub={project.gitHub}
+                  img={project.img}
+                  title={project.title}
+                  url={project.url}
+                />
               </div>
             ))}
           </div>
