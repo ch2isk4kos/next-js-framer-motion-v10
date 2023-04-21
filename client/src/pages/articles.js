@@ -40,9 +40,7 @@ const ArticlesPage = () => {
             {articles?.map((article) => (
               <div className={articleGrid} key={article.id}>
                 <Article
-                  category={article.category}
                   description={article.description}
-                  gitHub={article.gitHub}
                   img={article.img}
                   title={article.title}
                   url={article.url}
