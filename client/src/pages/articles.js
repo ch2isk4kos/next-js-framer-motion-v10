@@ -9,9 +9,9 @@ const layout = `pt-16`;
 const main = `flex flex-col items-center justify-center w-full mb-16`;
 const text = `
   flex flex-column items-center justify-center
-  w-full mb-2 font-bold text-5xl uppercase
+  w-full mb-2 font-bold text-6xl uppercase
 `;
-const doc = `absolute right-80 text-lg font-medium`;
+const doc = `absolute right-60 text-lg font-medium`;
 const grid = `grid grid-cols-12 gap-24 mt-14`;
 const featureGrid = `col-span-12`;
 const articleGrid = `col-span-6`;
