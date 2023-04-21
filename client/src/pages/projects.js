@@ -30,7 +30,7 @@ const ProjectsPage = () => {
       <main className={main}>
         <Layout className={layout}>
           {/* <AnimatedText className={text} text="Projects" /> */}
-          <AnimatedText className={text} text="''We Are the Music Makers," />
+          <AnimatedText className={text} text="''We Are the Music Makers and" />
           <AnimatedText
             className={text}
             text=" We Are the Dreamers of Dreams.''"
