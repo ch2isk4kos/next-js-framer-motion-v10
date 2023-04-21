@@ -41,7 +41,7 @@ export const projects = [
   {
     id: "4",
     img: ``,
-    title: "OpenWeather Application",
+    title: "Weather App",
     url: "https://github.com/ch2isk4kos/pwa-demo",
     gitHub: "https://github.com/ch2isk4kos/pwa-demo",
     category: "PWA",
