@@ -10,13 +10,13 @@ const root = `
 `;
 const imageLink = `w-full cursor-pointer overflow-hidden rounded-lg`;
 const image = `w-full h-auto`;
-const projectInfo = `flex flex-col items-start justify-between w-full pl-6`;
+const projectInfo = `flex flex-col items-start justify-between w-full mt-4`;
 const h2 = `font-medium text-center text-blue-600 text-2xl`;
 const type = `w-full my-2 font-bold text-left text-dark text-xl`;
 const overview = `my-2 font-medium text-dark`;
-const links = `flex items-center mt-2`;
+const links = `flex items-center w-full mt-2`;
 const gitHubIcon = "w-18 h-10";
-const appLink = `ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold`;
+const appLink = `ml-4 rounded-lg bg-dark text-light p-2 px-4 text-lg font-semibold`;
 
 const Project = ({ category, description, gitHub, img, title, url }) => {
   return (
