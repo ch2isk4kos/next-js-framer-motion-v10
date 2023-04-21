@@ -10,9 +10,9 @@ const layout = `pt-16`;
 const main = `flex flex-col items-center justify-center w-full mb-16`;
 const text = `
   flex flex-column items-center justify-center
-  w-full mb-32 font-medium text-7xl uppercase
+  w-full mb-2 font-bold text-5xl uppercase
 `;
-const grid = `grid grid-cols-12 gap-24`;
+const grid = `grid grid-cols-12 gap-24 mt-12`;
 const featureGrid = `col-span-12`;
 const projectGrid = `col-span-6`;
 
@@ -28,7 +28,12 @@ const ProjectsPage = () => {
       </Head>
       <main className={main}>
         <Layout className={layout}>
-          <AnimatedText className={text} text="Projects" />
+          {/* <AnimatedText className={text} text="Projects" /> */}
+          <AnimatedText className={text} text="''We Are the Music Makers," />
+          <AnimatedText
+            className={text}
+            text=" We Are the Dreamers of Dreams.''"
+          />
           <div className={grid}>
             <div className={featureGrid}>
               <Featured data={featured} />
