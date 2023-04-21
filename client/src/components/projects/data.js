@@ -21,7 +21,7 @@ export const projects = [
   {
     id: "1",
     img: ``,
-    title: "E-com-mern",
+    title: "E-com-MERN",
     url: "https://github.com/ch2isk4kos/e-com-mern",
     gitHub: "https://github.com/ch2isk4kos/e-com-mern",
     category: "E-commerce",
@@ -34,7 +34,7 @@ export const projects = [
     title: "HexaDB CLI",
     url: "https://github.com/ch2isk4kos/hexadb-cli",
     gitHub: "https://github.com/ch2isk4kos/hexadb-cli",
-    category: "Command Line Interface Tool",
+    category: "CLI Tool",
     description:
       "blah blah blah blah blah blah blah blah blah blah blah blah blah",
   },
@@ -44,7 +44,7 @@ export const projects = [
     title: "OpenWeather Application",
     url: "https://github.com/ch2isk4kos/pwa-demo",
     gitHub: "https://github.com/ch2isk4kos/pwa-demo",
-    category: "Progressive Web Application",
+    category: "PWA",
     description:
       "blah blah blah blah blah blah blah blah blah blah blah blah blah",
   },
