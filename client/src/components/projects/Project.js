@@ -1,6 +1,6 @@
 import React from "react";
 
-const Project = ({ title, url }) => {
+const Project = ({ category, gitHub, img, title, url }) => {
   return (
     <div>
       <a href={url} target="_blank">
