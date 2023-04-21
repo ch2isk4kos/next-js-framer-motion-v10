@@ -1,10 +1,10 @@
 import React from "react";
 
-const Article = () => {
+const Article = ({ description, img, title, url }) => {
   return (
     <div>
       {/*  */}
-      <h2>Articles</h2>
+      <h2>{title}</h2>
     </div>
   );
 };
