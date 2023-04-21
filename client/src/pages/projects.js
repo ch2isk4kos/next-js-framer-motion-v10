@@ -12,7 +12,7 @@ const text = `
   flex flex-column items-center justify-center
   w-full mb-2 font-bold text-5xl uppercase
 `;
-const wonka = `absolute right-40 text-lg`;
+const wonka = `absolute right-40 text-lg font-medium`;
 const grid = `grid grid-cols-12 gap-24 mt-14`;
 const featureGrid = `col-span-12`;
 const projectGrid = `col-span-6`;
