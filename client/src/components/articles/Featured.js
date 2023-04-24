@@ -32,9 +32,9 @@ const Featured = ({ data }) => {
           {/* <Link href={data.gitHub} target="_blank">
             <GitHubIcon className={gitHubIcon} />
           </Link> */}
-          {/* <Link href={data.url} target="_blank">
+          <Link href={data.url} target="_blank">
             <p className={articleLink}>Read Article</p>
-          </Link> */}
+          </Link>
         </div>
       </div>
     </article>
