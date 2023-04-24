@@ -7,7 +7,7 @@ const root = `
   relative flex flex-col items-center justify-center w-full rounded-2xl
   border border-solid border-dark bg-light shadow-2xl p-6`;
 const imageLink = `w-full cursor-pointer overflow-hidden rounded-lg`;
-const image = ``;
+const image = `w-full h-auto`;
 const articleInfo = ``;
 const h2 = ``;
 const preview = ``;
