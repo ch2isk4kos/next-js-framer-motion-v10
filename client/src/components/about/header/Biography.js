@@ -1,9 +1,9 @@
 import React from "react";
 
-const Biography = () => {
-  const h2 = `text-lg font-bold uppercase text-dark/75`;
-  const pg = `my-1 font-medium`;
+const h2 = `text-lg font-bold uppercase text-dark/75`;
+const pg = `my-1 font-medium`;
 
+const Biography = () => {
   const paragraphs = [
     {
       id: "0",
