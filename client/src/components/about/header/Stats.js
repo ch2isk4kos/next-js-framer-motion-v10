@@ -13,7 +13,7 @@ const Stats = () => {
         <span className={span}>
           <AnimatedNumbers value={50} />+
         </span>
-        <h2 className={h2}>courses uncompleted</h2>
+        <h2 className={h2}>courses incomplete</h2>
       </div>
       <div className={spanWrapper}>
         <span className={span}>
