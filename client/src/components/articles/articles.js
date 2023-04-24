@@ -1,5 +1,5 @@
 export const featured = {
-  title: "Raspberry Pi: Installing Retro Pie",
+  title: "Installing Retro Pie",
   url: "https://chriskakos.medium.com/installing-retropie-onto-raspberry-pi-95070cf9612f",
   description:
     "blah blah blah blah blah blah blah blah blah blah blah blah blah",
