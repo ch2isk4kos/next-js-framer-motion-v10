@@ -13,7 +13,7 @@ const image = `w-full h-auto`;
 const articleInfo = `flex flex-col items-start justify-between w-1/2 pl-6`;
 const title = `w-full my-2 font-bold text-left text-dark text-4xl`;
 const h2 = `font-medium text-center text-blue-600 text-2xl`;
-const preview = `my-2 font-medium text-dark`;
+const summary = `my-2 font-medium text-dark`;
 const links = `flex items-center mt-2`;
 const mediumIcon = "w-18 h-10";
 const articleLink = `ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold`;
@@ -27,7 +27,7 @@ const Featured = ({ data }) => {
       <div className={articleInfo}>
         <h2 className={h2}>Featured Article</h2>
         <span className={title}>{data.title}</span>
-        <p className={preview}>{data.description}</p>
+        <p className={summary}>{data.summary}</p>
         <div className={links}>
           {/* <Link href={data.gitHub} target="_blank">
             <GitHubIcon className={gitHubIcon} />
