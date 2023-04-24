@@ -13,7 +13,6 @@ const image = `w-full h-auto`;
 const articleInfo = `flex flex-col items-start justify-between w-1/2 pl-6`;
 const title = `w-full my-2 font-bold text-left text-dark text-4xl`;
 const h2 = `font-medium text-center text-blue-600 text-2xl`;
-const category = `w-full my-2 font-bold text-left text-dark text-4xl`;
 const preview = `my-2 font-medium text-dark`;
 const links = `flex items-center mt-2`;
 const mediumIcon = "w-18 h-10";
