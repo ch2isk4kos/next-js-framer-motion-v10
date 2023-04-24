@@ -25,8 +25,8 @@ const AboutPage = () => {
       <main>
         <Layout className={layout}>
           <div className={quote}>
-            <AnimatedText className={text} text="Allow Myself to" />
-            <AnimatedText className={text} text="Introduce...Myself." />
+            <AnimatedText className={text} text="''Allow Myself to" />
+            <AnimatedText className={text} text="Introduce...Myself.''" />
             <span className={austin}>
               <em>- Austin Powers</em>
             </span>
