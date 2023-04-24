@@ -1,4 +1,7 @@
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import framer from "../../../public/images/framer-motion-vector.png";
 
 const Article = ({ description, img, medium, title, url }) => {
   return (
