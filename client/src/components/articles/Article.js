@@ -28,9 +28,9 @@ const Article = ({ description, img, medium, title, url }) => {
           {/* <Link href={medium} target="_blank">
             <p>Medium</p>
           </Link> */}
-          {/* <Link href={url} target="_blank">
+          <Link href={url} target="_blank">
             <p className={articleLink}>Read More</p>
-          </Link> */}
+          </Link>
         </div>
       </div>
     </article>
