@@ -8,12 +8,12 @@ const root = `
   border border-solid border-dark bg-light shadow-2xl p-6`;
 const imageLink = `w-full cursor-pointer overflow-hidden rounded-lg`;
 const image = `w-full h-auto`;
-const articleInfo = ``;
-const h2 = ``;
-const preview = ``;
-const links = ``;
-const mediumIcon = ``;
-const articleLink = ``;
+const articleInfo = `flex flex-col items-start justify-between w-full mt-4`;
+const h2 = `font-medium text-center text-blue-600 text-2xl`;
+const preview = `my-2 font-medium text-dark`;
+const links = `flex items-center w-full mt-2`;
+const mediumIcon = `w-18 h-10`;
+const articleLink = `ml-4 rounded-lg bg-dark text-light p-2 px-4 text-lg font-semibold`;
 
 const Article = ({ description, img, medium, title, url }) => {
   return (
