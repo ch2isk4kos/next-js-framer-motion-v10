@@ -3,10 +3,11 @@ import Head from "next/head";
 import Layout from "@/components/utils/Layout";
 import Article from "@/components/articles/Article";
 import AnimatedText from "@/components/utils/AnimatedText";
+import Featured from "@/components/articles/Featured";
 import { featured, articles } from "@/components/articles/articles";
 
 const layout = `pt-16`;
-const main = `flex flex-col items-center justify-center w-full mb-16`;
+const main = `flex flex-col items-center justify-center w-full mb-16 overflow-hidden`;
 const text = `
   flex flex-column items-center justify-center
   w-full mb-2 font-bold text-6xl uppercase
@@ -34,9 +35,9 @@ const ArticlesPage = () => {
             <em>- Dr. Emmett Brown</em>
           </span>
           <div className={grid}>
-            {/* <div className={featureGrid}>
+            <div className={featureGrid}>
               <Featured data={featured} />
-            </div> */}
+            </div>
             {articles?.map((article) => (
               <div className={articleGrid} key={article.id}>
                 <Article
