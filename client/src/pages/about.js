@@ -8,10 +8,12 @@ import Experience from "@/components/about/experience";
 import Education from "@/components/about/education";
 
 const layout = `pt-16`;
+const quote = `mt-8`;
 const text = `
   flex flex-column items-center justify-center
-  w-full mb-32 font-medium text-7xl uppercase
+  w-full mb-2 font-bold text-7xl uppercase
 `;
+const austin = `absolute right-60 text-lg font-medium`;
 
 const AboutPage = () => {
   return (
@@ -22,7 +24,13 @@ const AboutPage = () => {
       </Head>
       <main>
         <Layout className={layout}>
-          <AnimatedText className={text} text="About" />
+          <div className={quote}>
+            <AnimatedText className={text} text="Allow Myself to" />
+            <AnimatedText className={text} text="Introduce...Myself." />
+            <span className={austin}>
+              <em>- Austin Powers</em>
+            </span>
+          </div>
           <Header />
           <Skills />
           <Experience />
