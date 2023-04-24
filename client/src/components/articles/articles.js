@@ -25,7 +25,7 @@ export const articles = [
   {
     id: "2",
     img: ``,
-    title: "JavaScript Algorithms: Palindrome Checker",
+    title: "Algorithms: Palindrome Checker",
     url: "https://github.com/ch2isk4kos/hexadb-cli",
     description:
       "blah blah blah blah blah blah blah blah blah blah blah blah blah",
