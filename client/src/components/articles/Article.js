@@ -3,7 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import framer from "../../../public/images/framer-motion-vector.png";
 
-const root = ``;
+const root = `
+  relative flex flex-col items-center justify-center w-full rounded-2xl
+  border border-solid border-dark bg-light shadow-2xl p-6`;
 const imageLink = ``;
 const image = ``;
 const articleInfo = ``;
