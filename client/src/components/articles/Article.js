@@ -15,7 +15,7 @@ const links = `flex items-center w-full mt-2`;
 const mediumIcon = `w-18 h-10`;
 const articleLink = `ml-4 rounded-lg bg-dark text-light p-2 px-4 text-lg font-semibold`;
 
-const Article = ({ description, img, medium, title, url }) => {
+const Article = ({ img, medium, summary, title, url }) => {
   return (
     <article className={root}>
       {/* <Link className={imageLink} href={url} target="_blank">
@@ -23,7 +23,7 @@ const Article = ({ description, img, medium, title, url }) => {
       </Link> */}
       <div className={articleInfo}>
         <h2 className={h2}>{title}</h2>
-        <p className={preview}>{description}</p>
+        <p className={preview}>{summary}</p>
         <div className={links}>
           {/* <Link href={medium} target="_blank">
             <p>Medium</p>
