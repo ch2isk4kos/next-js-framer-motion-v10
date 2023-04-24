@@ -3,6 +3,16 @@ import Link from "next/link";
 import Image from "next/image";
 import framer from "../../../public/images/framer-motion-vector.png";
 
+const root = ``;
+const imageLink = ``;
+const image = ``;
+const articleInfo = ``;
+const h2 = ``;
+const preview = ``;
+const links = ``;
+const mediumIcon = ``;
+const articleLink = ``;
+
 const Article = ({ description, img, medium, title, url }) => {
   return (
     <article className={root}>
