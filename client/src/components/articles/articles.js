@@ -4,6 +4,30 @@ export const featured = {
   summary: "blah blah blah blah blah blah blah blah blah blah blah blah blah",
 };
 
+export const latest = [
+  {
+    id: "0",
+    img: ``,
+    title: "Passing Props",
+    url: "https://github.com/ch2isk4kos/react-tetris-2",
+    summary: "blah blah blah blah blah blah blah...",
+  },
+  {
+    id: "1",
+    img: ``,
+    title: "Go Overview",
+    url: "https://github.com/ch2isk4kos/e-com-mern",
+    summary: "blah blah blah blah blah blah blah...",
+  },
+  {
+    id: "2",
+    img: ``,
+    title: "Palindrome Check",
+    url: "https://github.com/ch2isk4kos/hexadb-cli",
+    summary: "blah blah blah blah blah blah blah...",
+  },
+];
+
 export const articles = [
   {
     id: "0",
