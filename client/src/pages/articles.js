@@ -40,9 +40,8 @@ const ArticlesPage = () => {
               <Featured data={featured} />
             </div>
             {latest?.map((article) => (
-              <div className={latestGrid}>
+              <div className={latestGrid} key={latest.id}>
                 <Article
-                  key={latest.id}
                   img={article.img}
                   summary={article.summary}
                   title={article.title}
