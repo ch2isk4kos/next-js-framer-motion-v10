@@ -1,8 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { GitHubIcon } from "../nav/Icons";
 import framer from "../../../public/images/framer-motion-vector.png";
+
+const FramerImage = motion(Image);
 
 const root = `
   relative flex flex-col items-center justify-center w-full rounded-2xl
@@ -23,7 +26,13 @@ const Project = ({ category, description, gitHub, img, title, url }) => {
     <article className={root}>
       <Link className={imageLink} href={url} target="_blank">
         {/* <Image className={image} src={img} alt={title} /> */}
-        <Image className={image} src={framer} alt={title} />
+        <FramerImage
+          className={image}
+          src={framer}
+          alt={title}
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.2 }}
+        />
       </Link>
       <div className={projectInfo}>
         <h2 className={h2}>{title}</h2>
