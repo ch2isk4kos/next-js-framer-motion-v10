@@ -4,6 +4,7 @@ import Layout from "@/components/utils/Layout";
 import Article from "@/components/articles/Article";
 import AnimatedText from "@/components/utils/AnimatedText";
 import Featured from "@/components/articles/Featured";
+import Latest from "@/components/articles/Latest";
 import { featured, latest, articles } from "@/components/articles/articles";
 
 const layout = `pt-16`;
@@ -41,7 +42,7 @@ const ArticlesPage = () => {
             </div>
             {latest?.map((article) => (
               <div className={latestGrid} key={latest.id}>
-                <Article
+                <Latest
                   img={article.img}
                   summary={article.summary}
                   title={article.title}
