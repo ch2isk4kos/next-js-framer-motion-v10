@@ -1,8 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import framer from "../../../public/images/framer-motion-vector.png";
+import { motion } from "framer-motion";
 import { GitHubIcon } from "../nav/Icons";
+import framer from "../../../public/images/framer-motion-vector.png";
+
+const FramerImage = motion(Image);
 
 const root = `
   flex items-center justify-between w-full
@@ -22,7 +25,13 @@ const Featured = ({ data }) => {
   return (
     <article className={root}>
       <Link className={imageLink} href={data.url} target="_blank">
-        <Image className={image} src={framer} alt={data.title} />
+        <FramerImage
+          className={image}
+          src={framer}
+          alt={data.title}
+          whileHover={{ scale: 1.05 }}
+          transition={{ duration: 0.2 }}
+        />
       </Link>
       <div className={projectInfo}>
         <h2 className={h2}>Featured Project</h2>
