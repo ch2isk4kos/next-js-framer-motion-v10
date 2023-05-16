@@ -12,7 +12,6 @@ const root = `
 const imageLink = `w-full inline-block cursor-pointer overflow-hidden rounded-lg`;
 const image = `w-full h-auto`;
 const articleInfo = `flex flex-col items-start justify-between w-full mt-4`;
-// const h2 = `font-medium text-center text-blue-600 text-2xl`;
 const h2 = `font-medium text-blue-600 text-2xl`;
 const preview = `my-2 font-medium text-dark`;
 const links = `flex items-center w-full mt-2`;
