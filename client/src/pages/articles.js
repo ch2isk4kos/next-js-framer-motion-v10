@@ -17,6 +17,7 @@ const docQuote = `absolute right-60 text-lg font-medium`;
 const grid = `grid grid-cols-12 gap-24 mt-14`;
 const featureGrid = `col-span-12`;
 const latestGrid = `col-span-4`;
+// const latestGrid = `col-span-6`;
 const articleGrid = `col-span-6`;
 
 const ArticlesPage = () => {
