@@ -37,11 +37,6 @@ const Article = ({ img, medium, summary, title, url }) => {
       <div className={articleInfo}>
         <h2 className={h2}>{title}</h2>
         <p className={preview}>{summary}</p>
-        {/* <div className={links}>
-          <Link href={url} target="_blank">
-            <p className={articleLink}>Read More</p>
-          </Link>
-        </div> */}
       </div>
       <span className={date}>date</span>
     </article>
