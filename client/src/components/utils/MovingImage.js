@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 
 const h2 = `font-medium text-blue-600 text-2xl`;
 const image = `absolute w-96 h-auto hidden rounded-lg`;
-// const imageLink = `w-full inline-block cursor-pointer overflow-hidden rounded-lg`;
 
 const MovingImage = ({ img, title, url }) => {
   return (
