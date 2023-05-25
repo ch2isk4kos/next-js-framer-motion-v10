@@ -33,6 +33,10 @@ const date = `text-primary font-semibold pl-4`;
 const Article = ({ date, img, medium, summary, title, url }) => {
   return (
     <article className={root}>
+      {/* <div className={articleInfo}>
+        <h2 className={h2}>{title}</h2>
+        <p className={preview}>{summary}</p>
+      </div> */}
       <MovingImage img={img} url={url} title={title} />
       <span className={date}>date</span>
     </article>
