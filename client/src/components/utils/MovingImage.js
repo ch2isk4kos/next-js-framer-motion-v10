@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 const FramerImage = motion(Image);
 
 const h2 = `font-medium text-blue-600 text-2xl`;
+const image = `w-full h-auto`;
 // const imageLink = `w-full inline-block cursor-pointer overflow-hidden rounded-lg`;
 
 const MovingImage = ({ img, title, url }) => {
@@ -20,7 +21,7 @@ const MovingImage = ({ img, title, url }) => {
         transition={{ duration: 0.2 }}
       /> */}
       <h2 className={h2}>{title}</h2>
-      <Image src={img} alt={title} />
+      <Image className={image} src={img} alt={title} />
     </Link>
   );
 };
