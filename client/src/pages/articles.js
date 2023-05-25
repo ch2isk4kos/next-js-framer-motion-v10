@@ -14,7 +14,7 @@ const text = `
   w-full mb-2 font-bold text-6xl uppercase
 `;
 const docQuote = `absolute right-60 text-lg font-medium`;
-const gridContainer = `mt-16`;
+const gridContainer = `mt-24`;
 const grid = `grid grid-cols-12 gap-10`;
 const featureGrid = `col-span-12`;
 const latestGrid = `col-span-4`;
