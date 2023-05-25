@@ -21,15 +21,6 @@ const links = `flex items-center w-full mt-2`;
 const articleLink = `rounded-lg bg-dark text-light p-2 px-4 text-lg font-semibold`;
 const date = `text-primary font-semibold pl-4`;
 
-// const root = ``;
-// const imageLink = ``;
-// const image = ``;
-// const articleInfo = ``;
-// const h2 = ``;
-// const preview = ``;
-// const links = ``;
-// const articleLink = ``;
-
 const Article = ({ date, img, medium, summary, title, url }) => {
   return (
     <article className={root}>
