@@ -55,6 +55,7 @@ const ArticlesPage = () => {
             {articles?.map((article) => (
               <div className={articleGrid} key={article.id}>
                 <Article
+                  // date={article.date}
                   img={article.img}
                   summary={article.summary}
                   title={article.title}
