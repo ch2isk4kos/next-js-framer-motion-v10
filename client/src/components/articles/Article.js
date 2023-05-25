@@ -30,7 +30,7 @@ const date = `text-primary font-semibold pl-4`;
 // const links = ``;
 // const articleLink = ``;
 
-const Article = ({ img, medium, summary, title, url }) => {
+const Article = ({ date, img, medium, summary, title, url }) => {
   return (
     <article className={root}>
       <MovingImage img={img} url={url} title={title} />
