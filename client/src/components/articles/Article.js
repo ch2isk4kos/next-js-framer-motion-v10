@@ -33,15 +33,6 @@ const date = `text-primary font-semibold pl-4`;
 const Article = ({ img, medium, summary, title, url }) => {
   return (
     <article className={root}>
-      {/* <Link className={imageLink} href={url} target="_blank">
-        <FramerImage
-          className={image}
-          src={framer}
-          alt={title}
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.2 }}
-        />
-      </Link> */}
       <div className={articleInfo}>
         <h2 className={h2}>{title}</h2>
         <p className={preview}>{summary}</p>
