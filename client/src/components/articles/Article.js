@@ -14,7 +14,6 @@ const root = `
   relative flex justify-between items-center w-full p-4 rounded-xl
   border border-solid border-dark bg-light shadow-2xl first:mt-0`;
 // const imageLink = `w-full inline-block cursor-pointer overflow-hidden rounded-lg`;
-const image = `w-full h-auto`;
 const articleInfo = `flex flex-col items-start justify-between w-full mt-4`;
 const h2 = `font-medium text-blue-600 text-2xl`;
 const preview = `my-2 font-medium text-dark`;
