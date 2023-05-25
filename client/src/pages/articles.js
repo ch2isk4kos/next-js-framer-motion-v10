@@ -14,7 +14,8 @@ const text = `
   w-full mb-2 font-bold text-6xl uppercase
 `;
 const docQuote = `absolute right-60 text-lg font-medium`;
-const grid = `grid grid-cols-12 gap-24 mt-14`;
+const gridContainer = `mt-14`;
+const grid = `grid grid-cols-12 gap-10`;
 const featureGrid = `col-span-12`;
 const latestGrid = `col-span-4`;
 // const latestGrid = `col-span-6`;
@@ -38,31 +39,33 @@ const ArticlesPage = () => {
           <span className={docQuote}>
             <em>- Dr. Emmett Brown</em>
           </span>
-          <div className={grid}>
-            <div className={featureGrid}>
-              <Featured data={featured} />
+          <div className={gridContainer}>
+            <div className={grid}>
+              <div className={featureGrid}>
+                <Featured data={featured} />
+              </div>
+              {latest?.map((article) => (
+                <div className={latestGrid} key={latest.id}>
+                  <Latest
+                    img={article.img}
+                    summary={article.summary}
+                    title={article.title}
+                    url={article.url}
+                  />
+                </div>
+              ))}
+              {articles?.map((article) => (
+                <div className={articleGrid} key={article.id}>
+                  <Article
+                    // date={article.date}
+                    img={article.img}
+                    summary={article.summary}
+                    title={article.title}
+                    url={article.url}
+                  />
+                </div>
+              ))}
             </div>
-            {latest?.map((article) => (
-              <div className={latestGrid} key={latest.id}>
-                <Latest
-                  img={article.img}
-                  summary={article.summary}
-                  title={article.title}
-                  url={article.url}
-                />
-              </div>
-            ))}
-            {articles?.map((article) => (
-              <div className={articleGrid} key={article.id}>
-                <Article
-                  // date={article.date}
-                  img={article.img}
-                  summary={article.summary}
-                  title={article.title}
-                  url={article.url}
-                />
-              </div>
-            ))}
           </div>
         </Layout>
       </main>
