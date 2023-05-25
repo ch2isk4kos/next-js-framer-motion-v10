@@ -7,7 +7,7 @@ const FramerImage = motion(Image);
 
 const h2 = `font-medium text-blue-600 text-2xl`;
 
-const MovingImage = ({ image, link, title }) => {
+const MovingImage = ({ img, title, url }) => {
   return (
     <Link className={imageLink} href={link} target="_blank">
       {/* <FramerImage
