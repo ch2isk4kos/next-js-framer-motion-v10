@@ -13,7 +13,7 @@ const FramerImage = motion(Image);
 const root = `
   relative flex justify-between items-center w-full p-4 rounded-xl
   border border-solid border-dark bg-light shadow-2xl first:mt-0`;
-const imageLink = `w-full inline-block cursor-pointer overflow-hidden rounded-lg`;
+// const imageLink = `w-full inline-block cursor-pointer overflow-hidden rounded-lg`;
 const image = `w-full h-auto`;
 const articleInfo = `flex flex-col items-start justify-between w-full mt-4`;
 const h2 = `font-medium text-blue-600 text-2xl`;
@@ -37,8 +37,8 @@ const Article = ({ img, medium, summary, title, url }) => {
       <div className={articleInfo}>
         <h2 className={h2}>{title}</h2>
         <p className={preview}>{summary}</p>
+        <MovingImage img={img} url={url} title={title} />
       </div>
-      <MovingImage img={img} url={url} title={title} />
       <span className={date}>date</span>
     </article>
   );
