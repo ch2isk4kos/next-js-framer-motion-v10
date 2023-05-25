@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const FramerImage = motion(Image);
+// const FramerImage = motion(Image);
 
 const h2 = `font-medium text-blue-600 text-2xl`;
 const image = `absolute w-96 h-auto hidden rounded-lg`;
