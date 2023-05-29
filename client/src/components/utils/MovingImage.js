@@ -15,6 +15,8 @@ const MovingImage = ({ img, title, url }) => {
 
   const handleOnMouseMove = (e) => {
     imgRef.current.style.display = "inline-block";
+    x.set(e.pageX);
+    y.set(e.pageY);
   };
 
   const handleOnMouseLeave = (e) => {};
