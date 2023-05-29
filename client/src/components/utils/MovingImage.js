@@ -13,7 +13,11 @@ const MovingImage = ({ img, title, url }) => {
   const y = useMotionValue(0);
   const imgRef = useRef(null);
 
-  const handleOnMouse = (e) => {
+  const handleOnMouseHover = (e) => {
+    console.log(e.pageX);
+  };
+
+  const handleOnMouseNonHover = (e) => {
     console.log(e.pageX);
   };
 
