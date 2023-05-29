@@ -13,11 +13,11 @@ const MovingImage = ({ img, title, url }) => {
   const y = useMotionValue(0);
   const imgRef = useRef(null);
 
-  const handleOnMouseHover = (e) => {
+  const handleOnMouseMove = (e) => {
     console.log(e.pageX);
   };
 
-  const handleOnMouseNonHover = (e) => {
+  const handleOnMouseLeave = (e) => {
     console.log(e.pageX);
   };
 
@@ -25,8 +25,8 @@ const MovingImage = ({ img, title, url }) => {
     <Link
       href={url}
       target="_blank"
-      onMouseMove={handleOnMouseHover}
-      onMouseLeave={handleOnMouseNonHover}
+      onMouseMove={handleOnMouseMove}
+      onMouseLeave={handleOnMouseLeave}
     >
       <h2 className={h2}>{title}</h2>
       <Image className={image} src={img} alt={title} ref={imgRef} />
