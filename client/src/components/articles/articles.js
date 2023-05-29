@@ -57,4 +57,32 @@ export const articles = [
     url: "https://github.com/ch2isk4kos/pwa-demo",
     summary: "blah blah blah blah blah blah blah blah blah blah blah blah blah",
   },
+  {
+    id: "4",
+    img: ``,
+    title: "React: Passing Props",
+    url: "https://github.com/ch2isk4kos/react-tetris-2",
+    summary: "blah blah blah blah blah blah blah blah blah blah blah blah blah",
+  },
+  {
+    id: "5",
+    img: ``,
+    title: "Go: An Overview",
+    url: "https://github.com/ch2isk4kos/e-com-mern",
+    summary: "blah blah blah blah blah blah blah blah blah blah blah blah blah",
+  },
+  {
+    id: "6",
+    img: ``,
+    title: "Algorithms: Palindrome Checker",
+    url: "https://github.com/ch2isk4kos/hexadb-cli",
+    summary: "blah blah blah blah blah blah blah blah blah blah blah blah blah",
+  },
+  {
+    id: "7",
+    img: ``,
+    title: "Building A Rails API",
+    url: "https://github.com/ch2isk4kos/pwa-demo",
+    summary: "blah blah blah blah blah blah blah blah blah blah blah blah blah",
+  },
 ];
