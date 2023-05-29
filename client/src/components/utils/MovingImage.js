@@ -13,7 +13,9 @@ const MovingImage = ({ img, title, url }) => {
   const y = useMotionValue(0);
   const imgRef = useRef(null);
 
-  const handleOnMouseMove = (e) => {};
+  const handleOnMouseMove = (e) => {
+    imgRef.current.style.display = "inline-block";
+  };
 
   const handleOnMouseLeave = (e) => {};
 
