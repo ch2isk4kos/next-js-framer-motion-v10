@@ -16,7 +16,7 @@ const MovingImage = ({ img, title, url }) => {
   return (
     <Link href={url} target="_blank">
       <h2 className={h2}>{title}</h2>
-      <Image className={image} src={img} alt={title} />
+      <Image className={image} src={img} alt={title} ref={imgRef} />
     </Link>
   );
 };
