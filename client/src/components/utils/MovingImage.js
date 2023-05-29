@@ -11,6 +11,8 @@ const image = `absolute w-96 h-auto hidden rounded-lg`;
 const MovingImage = ({ img, title, url }) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
+  const imgRef = useRef(null);
+
   return (
     <Link href={url} target="_blank">
       <h2 className={h2}>{title}</h2>
