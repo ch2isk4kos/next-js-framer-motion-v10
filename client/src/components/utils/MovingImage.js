@@ -13,13 +13,9 @@ const MovingImage = ({ img, title, url }) => {
   const y = useMotionValue(0);
   const imgRef = useRef(null);
 
-  const handleOnMouseMove = (e) => {
-    console.log(e.pageX);
-  };
+  const handleOnMouseMove = (e) => {};
 
-  const handleOnMouseLeave = (e) => {
-    console.log(e.pageX);
-  };
+  const handleOnMouseLeave = (e) => {};
 
   return (
     <Link
