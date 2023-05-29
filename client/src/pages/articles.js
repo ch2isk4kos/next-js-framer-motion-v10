@@ -18,8 +18,6 @@ const gridContainer = `mt-24`;
 const grid = `grid grid-cols-12 gap-10`;
 const featureGrid = `col-span-12`;
 const latestGrid = `col-span-4`;
-// const latestGrid = `col-span-6`;
-// const articleGrid = `col-span-6`;
 const articleGrid = `col-span-12`;
 
 const ArticlesPage = () => {
