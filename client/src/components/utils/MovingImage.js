@@ -13,7 +13,9 @@ const MovingImage = ({ img, title, url }) => {
   const y = useMotionValue(0);
   const imgRef = useRef(null);
 
-  const handleOnMouse = (e) => {};
+  const handleOnMouse = (e) => {
+    console.log(e.pageX);
+  };
 
   return (
     <Link href={url} target="_blank">
