@@ -19,7 +19,11 @@ const MovingImage = ({ img, title, url }) => {
     y.set(-10);
   };
 
-  const handleOnMouseLeave = (e) => {};
+  const handleOnMouseLeave = (e) => {
+    imgRef.current.style.display = "none";
+    x.set(0);
+    y.set(0);
+  };
 
   return (
     <Link
