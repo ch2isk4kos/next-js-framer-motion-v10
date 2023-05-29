@@ -13,6 +13,8 @@ const MovingImage = ({ img, title, url }) => {
   const y = useMotionValue(0);
   const imgRef = useRef(null);
 
+  const handleOnMouse = (e) => {};
+
   return (
     <Link href={url} target="_blank">
       <h2 className={h2}>{title}</h2>
