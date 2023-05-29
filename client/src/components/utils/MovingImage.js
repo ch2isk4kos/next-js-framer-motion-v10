@@ -33,7 +33,13 @@ const MovingImage = ({ img, title, url }) => {
       onMouseLeave={handleOnMouseLeave}
     >
       <h2 className={h2}>{title}</h2>
-      <FramerImage className={image} src={img} alt={title} ref={imgRef} />
+      <FramerImage
+        className={image}
+        src={img}
+        alt={title}
+        ref={imgRef}
+        style={{ x: x, y: y }}
+      />
     </Link>
   );
 };
