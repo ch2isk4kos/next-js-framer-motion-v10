@@ -6,7 +6,7 @@ import { motion, useMotionValue } from "framer-motion";
 const FramerImage = motion(Image);
 
 const h2 = `font-medium text-blue-600 text-2xl`;
-const image = `absolute w-96 h-auto hidden rounded-lg`;
+const image = `absolute w-96 h-auto hidden rounded-lg z-10`;
 
 const MovingImage = ({ img, title, url }) => {
   const x = useMotionValue(0);
@@ -33,7 +33,7 @@ const MovingImage = ({ img, title, url }) => {
       onMouseLeave={handleOnMouseLeave}
     >
       <h2 className={h2}>{title}</h2>
-      <Image className={image} src={img} alt={title} ref={imgRef} />
+      <FramerImage className={image} src={img} alt={title} ref={imgRef} />
     </Link>
   );
 };
