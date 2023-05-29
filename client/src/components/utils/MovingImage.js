@@ -39,6 +39,8 @@ const MovingImage = ({ img, title, url }) => {
         alt={title}
         ref={imgRef}
         style={{ x: x, y: y }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1, transition: { duration: 0.2 } }}
       />
     </Link>
   );
