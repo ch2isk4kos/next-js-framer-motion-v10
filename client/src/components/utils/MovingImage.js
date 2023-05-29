@@ -22,7 +22,12 @@ const MovingImage = ({ img, title, url }) => {
   };
 
   return (
-    <Link href={url} target="_blank">
+    <Link
+      href={url}
+      target="_blank"
+      onMouseMove={handleOnMouseHover}
+      onMouseLeave={handleOnMouseNonHover}
+    >
       <h2 className={h2}>{title}</h2>
       <Image className={image} src={img} alt={title} ref={imgRef} />
     </Link>
