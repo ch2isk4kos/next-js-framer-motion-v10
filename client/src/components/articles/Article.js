@@ -16,7 +16,7 @@ const h2 = `font-medium text-blue-600 text-2xl`;
 const preview = `my-2 font-medium text-dark`;
 const links = `flex items-center w-full mt-2`;
 const articleLink = `rounded-lg bg-dark text-light p-2 px-4 text-lg font-semibold`;
-const date = `text-primary font-semibold pl-4`;
+const dateFont = `text-primary font-semibold pl-4`;
 
 const Article = ({ date, img, medium, summary, title, url }) => {
   return (
@@ -27,7 +27,7 @@ const Article = ({ date, img, medium, summary, title, url }) => {
       </div> */}
       {/* <MovingImage img={img} url={url} title={title} /> */}
       <MovingImage img={framer} url={url} title={title} />
-      <span className={date}>date</span>
+      <span className={dateFont}>date</span>
     </article>
   );
 };
