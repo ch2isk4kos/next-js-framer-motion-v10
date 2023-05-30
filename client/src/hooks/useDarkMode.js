@@ -1,6 +1,7 @@
 import React from "react";
 
 const useDarkMode = () => {
+  const darkModeQuery = "{prefer-color-scheme: dark}";
   return (
     //
     <div>useDarkMode</div>
