@@ -8,6 +8,8 @@ const useDarkMode = () => {
     const mediaQuery = window.matchMedia(darkModeQuery);
     const userPreference = window.localStorage.getItem("theme");
 
+    const handleOnQuery = () => {};
+
     mediaQuery.addEventListener("change", handleOnQuery);
   }, []);
 
