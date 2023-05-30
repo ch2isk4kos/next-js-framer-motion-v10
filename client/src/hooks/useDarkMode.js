@@ -11,6 +11,7 @@ const useDarkMode = () => {
     const handleOnQuery = () => {
       if (userPreference) {
         let checkPreference = userPreference === "dark" ? "dark" : "light";
+        setMode(checkPreference);
       }
     };
 
