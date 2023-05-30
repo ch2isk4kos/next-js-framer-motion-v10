@@ -29,6 +29,8 @@ const useDarkMode = () => {
     return () => mediaQuery.removeEventListener("change", handleOnQuery);
   }, []);
 
+  useEffect(() => {}, []);
+
   return (
     //
     <div>useDarkMode</div>
