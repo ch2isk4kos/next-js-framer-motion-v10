@@ -7,14 +7,18 @@ const useDarkMode = () => {
   useEffect(() => {
     const mediaQuery = window.matchMedia(darkModeQuery);
     const userPreference = window.localStorage.getItem("theme");
+    let checkPreference;
 
     const handleOnQuery = () => {
       if (userPreference) {
-        let checkPreference = userPreference === "dark" ? "dark" : "light";
+        checkPreference = userPreference === "dark" ? "dark" : "light";
         setMode(checkPreference);
         if (checkPreference === "dark")
           document.documentElement.classList.add("dark");
         else document.documentElement.classList.remove("dark");
+      } else {
+        checkPreference = mediaQuery.matches ? "dark" : "light";
+        setMode(checkPreference);
       }
     };
 
