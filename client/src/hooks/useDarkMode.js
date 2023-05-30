@@ -7,6 +7,8 @@ const useDarkMode = () => {
   useEffect(() => {
     const mediaQuery = window.matchMedia(darkModeQuery);
     const userPreference = window.localStorage.getItem("theme");
+
+    mediaQuery.addEventListener("change", handleOnQuery);
   }, []);
 
   return (
