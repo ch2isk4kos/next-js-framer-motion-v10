@@ -25,10 +25,6 @@ const Article = ({ date, img, medium, summary, title, url }) => {
       whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
       viewport={{ once: true }}
     >
-      {/* <div className={articleInfo}>
-        <h2 className={h2}>{title}</h2>
-        <p className={preview}>{summary}</p>
-      </div> */}
       {/* <MovingImage img={img} url={url} title={title} /> */}
       <MovingImage img={framer} url={url} title={title} />
       <span className={dateFont}>date</span>
