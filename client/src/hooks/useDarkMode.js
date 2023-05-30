@@ -19,6 +19,9 @@ const useDarkMode = () => {
       } else {
         checkPreference = mediaQuery.matches ? "dark" : "light";
         setMode(checkPreference);
+        if (checkPreference === "dark")
+          document.documentElement.classList.add("dark");
+        else document.documentElement.classList.remove("dark");
       }
     };
 
