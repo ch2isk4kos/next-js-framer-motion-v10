@@ -5,8 +5,6 @@ import MovingImage from "../utils/MovingImage";
 import { motion } from "framer-motion";
 import framer from "../../../public/images/framer-motion-vector.png";
 
-const FramerImage = motion(Image);
-
 const root = `
   relative flex justify-between items-center w-full p-4 rounded-xl
   border border-solid border-dark bg-light shadow-2xl first:mt-0`;
