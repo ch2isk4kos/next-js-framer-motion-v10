@@ -9,16 +9,20 @@ import {
   MoonIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
+import useDarkMode from "@/hooks/useDarkMode";
+
+const headerStyles =
+  "w-full px-32 py-8 font-medium flex items-center justify-between";
+const customLinkStyles = "";
+const iconStyles = "flex items-center justify-center flex-wrap";
+const moonIconStyle = ``;
+const sunIconStyle = `fill-dark`;
+const aStyles = "w-6 mx-2";
+const hoverEffect = { y: -4 };
+const tapEffect = { scale: 0.9 };
 
 const Navbar = () => {
-  const headerStyles =
-    "w-full px-32 py-8 font-medium flex items-center justify-between";
-  const customLinkStyles = "";
-  const iconStyles = "flex items-center justify-center flex-wrap";
-  const aStyles = "w-6 mx-2";
-  const hoverEffect = { y: -4 };
-  const tapEffect = { scale: 0.9 };
-
+  const [mode, setMode] = useDarkMode();
   return (
     <header className={headerStyles}>
       <div>
@@ -72,7 +76,7 @@ const Navbar = () => {
           <TwitterIcon />
         </motion.a>
         {/* Sun? */}
-        <motion.a
+        {/* <motion.a
           href="/"
           target={"_blank"}
           className={`${aStyles}`}
@@ -80,9 +84,9 @@ const Navbar = () => {
           whileTap={tapEffect}
         >
           <MoonIcon />
-        </motion.a>
+        </motion.a> */}
         {/* Moon? */}
-        <motion.a
+        {/* <motion.a
           href="/"
           target={"_blank"}
           className={`${aStyles}`}
@@ -90,7 +94,18 @@ const Navbar = () => {
           whileTap={tapEffect}
         >
           <SunIcon />
-        </motion.a>
+        </motion.a> */}
+        {/* Dark Mode Toggle */}
+        <button
+          className={darkModeToggle}
+          onClick={() => setMode(mode === "light" ? "dark" : "light")}
+        >
+          {mode === "dark" ? (
+            <MoonIcon className={moonIconStyle} />
+          ) : (
+            <SunIcon className={sunIconStyle} />
+          )}
+        </button>
       </nav>
     </header>
   );
