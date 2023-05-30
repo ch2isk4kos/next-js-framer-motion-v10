@@ -37,7 +37,7 @@ const useDarkMode = () => {
       window.localStorage.setItem("theme", "light");
       document.documentElement.classList.remove("dark");
     }
-  }, []);
+  }, [mode]);
 
   return (
     //
