@@ -29,7 +29,12 @@ const useDarkMode = () => {
     return () => mediaQuery.removeEventListener("change", handleOnQuery);
   }, []);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    if (mode === "dark") {
+      window.localStorage.setItem("theme", "dark");
+      document.documentElement.classList.add("dark");
+    }
+  }, []);
 
   return (
     //
