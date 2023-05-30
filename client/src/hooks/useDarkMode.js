@@ -12,6 +12,9 @@ const useDarkMode = () => {
       if (userPreference) {
         let checkPreference = userPreference === "dark" ? "dark" : "light";
         setMode(checkPreference);
+        if (checkPreference === "dark")
+          document.documentElement.classList.add("dark");
+        else document.documentElement.classList.remove("dark");
       }
     };
 
