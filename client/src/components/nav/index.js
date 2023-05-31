@@ -95,8 +95,13 @@ const Navbar = () => {
           <SunIcon />
         </motion.a> */}
         {/* Dark Mode Toggle */}
-        <button
-          className={darkModeToggle}
+        <motion.button
+          className={`
+            ${darkModeToggle} 
+            ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
+          `}
+          whileHover={hoverEffect}
+          whileTap={tapEffect}
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
         >
           {mode === "dark" ? (
@@ -104,7 +109,7 @@ const Navbar = () => {
           ) : (
             <MoonIcon className={darkModeStyle} />
           )}
-        </button>
+        </motion.button>
       </nav>
     </header>
   );
