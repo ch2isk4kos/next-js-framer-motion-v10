@@ -7,7 +7,8 @@ import Project from "@/components/projects/Project";
 import { featured, projects } from "@/components/projects/data";
 
 const layout = `pt-16`;
-const main = `flex flex-col items-center justify-center w-full mb-16`;
+// const main = `flex flex-col items-center justify-center w-full mb-16`;
+const main = `flex flex-col items-center justify-center w-full`;
 const text = `
   flex flex-column items-center justify-center
   w-full mb-2 font-bold text-5xl uppercase
