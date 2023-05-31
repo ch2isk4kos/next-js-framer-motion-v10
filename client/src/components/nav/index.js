@@ -11,8 +11,7 @@ import {
 import { motion } from "framer-motion";
 import useDarkMode from "@/hooks/useDarkMode";
 
-const headerStyles =
-  "w-full px-32 py-8 font-medium flex items-center justify-between";
+const root = "w-full px-32 py-8 font-medium flex items-center justify-between";
 const customLinkStyles = "";
 const iconStyles = "flex items-center justify-center flex-wrap";
 const aStyles = "w-6 mx-2";
@@ -24,7 +23,7 @@ const tapEffect = { scale: 0.9 };
 const Navbar = () => {
   const [mode, setMode] = useDarkMode();
   return (
-    <header className={headerStyles}>
+    <header className={root}>
       <div>
         <Logo />
       </div>
