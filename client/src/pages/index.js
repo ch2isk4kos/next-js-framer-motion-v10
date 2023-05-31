@@ -4,7 +4,8 @@ import Thumbnail from "@/components/home/Thumbnail";
 import Header from "@/components/home/Header";
 
 export default function HomePage() {
-  const main = `flex items-center text-dark w-full min-h-screen`;
+  // const main = `flex items-center text-dark w-full min-h-screen`;
+  const main = `flex items-center text-dark w-full`;
   const layout = `pt-0`;
 
   return (
@@ -20,7 +21,7 @@ export default function HomePage() {
         <Layout className={layout}>
           <Header />
         </Layout>
-        <Thumbnail />
+        {/* <Thumbnail /> */}
       </main>
     </>
   );
