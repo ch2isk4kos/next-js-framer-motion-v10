@@ -7,14 +7,14 @@ const MotionLink = motion(Link);
 const Logo = () => {
   const logoStyles = "flex mt-2";
   // const logoStyles = "absolute left-[50%] top-2 translate-x-[-50%] flex mt-2";
-  const linkStyles =
+  const motionLinkStyle =
     "rounded w-16 h-16 flex items-center justify-center bg-dark text-light font-bold";
   // "rounded-full w-16 h-16 flex items-center justify-center bg-dark text-light text-xl";
 
   return (
     <div className={logoStyles}>
       <MotionLink
-        className={linkStyles}
+        className={motionLinkStyle}
         href="/"
         whileHover={{
           // scale: 1.5,
