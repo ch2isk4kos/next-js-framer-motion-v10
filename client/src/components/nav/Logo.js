@@ -8,7 +8,7 @@ const Logo = () => {
   const logoStyles = "flex mt-2";
   // const logoStyles = "absolute left-[50%] top-2 translate-x-[-50%] flex mt-2";
   const motionLinkStyle =
-    "rounded w-16 h-16 flex items-center justify-center bg-dark text-light font-bold";
+    "flex items-center justify-center w-16 h-16 bg-dark text-light font-bold rounded border border-solid border-transparent dark:border-light";
   // "rounded-full w-16 h-16 flex items-center justify-center bg-dark text-light text-xl";
 
   return (
