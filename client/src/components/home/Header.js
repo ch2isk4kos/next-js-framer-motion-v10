@@ -6,7 +6,7 @@ import AnimatedText from "@/components/utils/AnimatedText";
 import ProfileImage from "../../../public/images/mobile-dev-1-vector.png";
 
 const Header = () => {
-  const root = `flex items-center justify-between w-[100%] min-h-screen border-2 border-yellow-400`;
+  const root = `flex items-center justify-between w-[100%] min-h-screen`;
   const imgWrapper = `w-1/2 flex flex-col items-center self-center`;
   const img = `w-full h-auto`;
   const headingWrapper = `w-1/2`;
