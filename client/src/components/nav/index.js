@@ -8,10 +8,10 @@ import {
   SunIcon,
   MoonIcon,
 } from "./Icons";
-import { motion } from "framer-motion";
 import useDarkMode from "@/hooks/useDarkMode";
+import { motion } from "framer-motion";
 
-const root = "w-full px-32 py-8 font-medium flex items-center justify-between";
+const root = `w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light`;
 const customLinkStyles = "";
 const iconStyles = "flex items-center justify-center flex-wrap";
 const aStyles = "w-6 mx-2";
