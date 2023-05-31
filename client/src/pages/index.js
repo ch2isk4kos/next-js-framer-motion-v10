@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Layout from "@/components/utils/Layout";
-import Thumbnail from "@/components/home/Thumbnail";
+// import Thumbnail from "@/components/home/Thumbnail";
 import Header from "@/components/home/Header";
 
 export default function HomePage() {
