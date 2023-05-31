@@ -15,9 +15,9 @@ const headerStyles =
   "w-full px-32 py-8 font-medium flex items-center justify-between";
 const customLinkStyles = "";
 const iconStyles = "flex items-center justify-center flex-wrap";
-const moonIconStyle = ``;
-const sunIconStyle = `fill-dark`;
 const aStyles = "w-6 mx-2";
+const darkModeToggle = `flex items-center justify-center ml-1 p-1 rounded-full`;
+const darkModeStyle = `fill-dark`;
 const hoverEffect = { y: -4 };
 const tapEffect = { scale: 0.9 };
 
@@ -101,9 +101,9 @@ const Navbar = () => {
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
         >
           {mode === "dark" ? (
-            <MoonIcon className={moonIconStyle} />
+            <MoonIcon className={darkModeStyle} />
           ) : (
-            <SunIcon className={sunIconStyle} />
+            <SunIcon className={darkModeStyle} />
           )}
         </button>
       </nav>
