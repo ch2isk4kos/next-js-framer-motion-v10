@@ -8,7 +8,7 @@ import Latest from "@/components/articles/Latest";
 import { featured, latest, articles } from "@/components/articles/articles";
 
 const layout = `pt-16`;
-const main = `flex flex-col items-center justify-center w-full mb-16 overflow-hidden`;
+const main = `flex flex-col items-center justify-center w-full overflow-hidden`;
 const text = `
   flex flex-column items-center justify-center
   w-full mb-2 font-bold text-6xl uppercase
